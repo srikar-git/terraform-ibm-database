@@ -3,7 +3,7 @@
 # Copyright 2020 IBM
 ###########################################################
 
-module "database_simple-etcd" {
+module "sleepy-test" {
   source            = "git::https://github.com/srikar-git/tf_cloudless_sleepy.git?ref=v0.12"
   sample_var        = "some test value"
   sleepy_time       = 5
